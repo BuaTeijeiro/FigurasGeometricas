@@ -29,7 +29,7 @@ public abstract class FiguraGeometrica {
         this.area = area;
     }
 
-    public abstract double computeArea();
+    public abstract void computeArea();
 
     
 }
