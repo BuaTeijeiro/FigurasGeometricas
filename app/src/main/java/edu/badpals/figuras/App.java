@@ -9,7 +9,6 @@ import java.util.List;
 public class App {
 
     public static void main(String[] args) {
-        /*
         List<FiguraGeometrica> figuras = new ArrayList<>();
 		Rectangulo rectanguloConstructorSuper = new Rectangulo(4, 5);
 		Rectangulo rectanguloConstructorLocal = new Rectangulo("rectángulo", 4, 5);
@@ -34,7 +33,7 @@ public class App {
 		figuras.add(elipseConstructorLocal);
 				
 		for (FiguraGeometrica figura : figuras){
-			System.out.println("Area del " + figura.getNombre() + " = " + figura.area());
-		}*/
+			System.out.println("Area del " + figura.getNombre() + " = " + figura.getArea());
+		}
     }
 }
