@@ -4,12 +4,12 @@
 package edu.badpals.figuras;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class App {
 
     public static void main(String[] args) {
-        ArrayList<FiguraGeometrica> figuras = new ArrayList<>();
-		
+        List<FiguraGeometrica> figuras = new ArrayList<>();
 		// test constructores 
 		
 		Rectangulo rectanguloConstructorSuper = new Rectangulo(4, 5);
