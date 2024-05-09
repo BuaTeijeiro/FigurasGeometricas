@@ -17,7 +17,11 @@ public class Cuadrado extends FiguraGeometrica{
 
     @Override
     public void computeArea() {
-        double area = lado * lado;
+        double area = getLado() * getLado();
         setArea(area);
+    }
+
+    private double getLado(){
+        return this.lado;
     }
 }
