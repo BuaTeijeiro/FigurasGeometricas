@@ -20,7 +20,14 @@ public class Rectangulo extends FiguraGeometrica{
 
     @Override
     public void computeArea() {
-        Double area = base  * altura;
+        Double area = getBase()  * getAltura();
         setArea(area);
+    }
+
+    private double getBase(){
+        return this.base;
+    }
+    private double getAltura(){
+        return this.altura;
     }
 }
