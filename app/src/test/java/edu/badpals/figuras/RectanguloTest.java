@@ -20,6 +20,13 @@ class RectanguloTest {
         assertEquals(80,rectangulo.getArea());
     }
 
+    @Test
+    public void test_herencia() {
+        FiguraGeometrica rectanguloDesconocido = new Rectangulo(4, 5);
+        FiguraGeometrica rectangulo = new Rectangulo("rectánguloGrande", 8, 10);
+        assertEquals(20, rectanguloDesconocido.getArea());
+        assertEquals(80, rectangulo.getArea());
+    }
 
 
 
