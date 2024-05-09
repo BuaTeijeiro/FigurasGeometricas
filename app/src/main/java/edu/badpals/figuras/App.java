@@ -11,8 +11,6 @@ public class App {
     public static void main(String[] args) {
         /*
         List<FiguraGeometrica> figuras = new ArrayList<>();
-		// test constructores 
-		
 		Rectangulo rectanguloConstructorSuper = new Rectangulo(4, 5);
 		Rectangulo rectanguloConstructorLocal = new Rectangulo("rectángulo", 4, 5);
 		
@@ -24,8 +22,7 @@ public class App {
 		
 		Elipse elipseConstructorSuper = new Elipse(3, 4);
 		Elipse elipseConstructorLocal = new Elipse("elipse", 3, 4);
-		
-		// test herencia y polimorfismo 
+		 
 		
 		figuras.add(rectanguloConstructorSuper);
 		figuras.add(rectanguloConstructorLocal);
