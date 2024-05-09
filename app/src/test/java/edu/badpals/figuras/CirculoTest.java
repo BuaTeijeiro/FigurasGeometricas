@@ -17,9 +17,17 @@ class CirculoTest {
     }
 
     @Test
-    void computeArea(){
+    void computeAreaTest(){
         Circulo circulo1 = new Circulo(3);
         Circulo circulo2 = new Circulo("Circulo", 2.5);
+        assertEquals(9 * Math.PI, circulo1.getArea(), 0.1);
+        assertEquals(2.5 * 2.5 * Math.PI, circulo2.getArea(), 0.1);
+    }
+
+    @Test
+    void herenciaTest(){
+        FiguraGeometrica circulo1 = new Circulo(3);
+        FiguraGeometrica circulo2 = new Circulo("Circulo", 2.5);
         assertEquals(9 * Math.PI, circulo1.getArea(), 0.1);
         assertEquals(2.5 * 2.5 * Math.PI, circulo2.getArea(), 0.1);
     }
