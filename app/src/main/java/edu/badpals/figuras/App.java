@@ -9,6 +9,7 @@ import java.util.List;
 public class App {
 
     public static void main(String[] args) {
+        /*
         List<FiguraGeometrica> figuras = new ArrayList<>();
 		// test constructores 
 		
@@ -37,6 +38,6 @@ public class App {
 				
 		for (FiguraGeometrica figura : figuras){
 			System.out.println("Area del " + figura.getNombre() + " = " + figura.area());
-		}
+		}*/
     }
 }
