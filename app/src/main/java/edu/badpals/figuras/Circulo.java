@@ -1,6 +1,6 @@
 package edu.badpals.figuras;
 
-public class Circulo extends FiguraGeometrica{
+public class Circulo extends FiguraGeometrica implements Drawable{
     private double radio;
     private static final double PI = Math.PI;
 
@@ -26,6 +26,9 @@ public class Circulo extends FiguraGeometrica{
         setArea(area);
     }
 
-    
 
+    @Override
+    public void draw() {
+        System.out.println("Soy un círculo dibujado");
+    }
 }
