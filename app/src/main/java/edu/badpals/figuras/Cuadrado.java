@@ -1,6 +1,6 @@
 package edu.badpals.figuras;
 
-public class Cuadrado extends FiguraGeometrica{
+public class Cuadrado extends FiguraGeometrica implements Drawable{
     double lado;
 
     public Cuadrado(double lado) {
@@ -23,5 +23,10 @@ public class Cuadrado extends FiguraGeometrica{
 
     private double getLado(){
         return this.lado;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Soy un cuadrado dibujado");
     }
 }
