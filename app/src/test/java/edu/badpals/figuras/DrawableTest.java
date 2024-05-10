@@ -5,12 +5,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.ArrayList;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class DrawableTest {
     private static ArrayList<Drawable> figuras;
-	
-	/*@BeforeClass
+
+	@BeforeAll
 	public static void setUpBeforeClass() throws Exception {
 		
 		figuras = new ArrayList<>();
@@ -32,10 +33,10 @@ public class DrawableTest {
 	@Test
 	public void figuras_incluidas_en_ArrayList_figuras(){
 		assertEquals(figuras.size(), 4);
-	}*/
+	}
 	
 	
-	/*@Test
+	@Test
 	public void testDibujarDrawables() {
 		
 		// Dibujemos las figuras
@@ -44,7 +45,7 @@ public class DrawableTest {
 		
 		// Las interfaces son un tipo de dato
 		// figura es drawable pero no todo drawable es una figura
-	}*/
+	}
 	
 	@Test
 	public void testPolimorfismo(){
