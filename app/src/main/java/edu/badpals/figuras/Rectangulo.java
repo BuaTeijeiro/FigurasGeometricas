@@ -1,6 +1,6 @@
 package edu.badpals.figuras;
 
-public class Rectangulo extends FiguraGeometrica{
+public class Rectangulo extends FiguraGeometrica implements Drawable{
     double base;
     double altura;
 
@@ -29,5 +29,10 @@ public class Rectangulo extends FiguraGeometrica{
     }
     private double getAltura(){
         return this.altura;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Soy un rectángulo dibujado");
     }
 }
